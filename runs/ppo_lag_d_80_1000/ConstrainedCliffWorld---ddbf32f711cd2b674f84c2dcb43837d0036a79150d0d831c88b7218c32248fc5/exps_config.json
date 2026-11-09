@@ -1,0 +1,16 @@
+
+{
+    "seed": 0,
+    "features_tiling_size": 5,
+    "features_num_tilings": 6,
+    "features_iht_size": 80,
+    "features_one_hot": false,
+    "clip": 0.2,
+    "eta_dual": 0.0001,
+    "eta_primal": 0.1,
+    "init_lambda": 0.0,
+    "iterations_inner": 250,
+    "iterations_outer": 1000,
+    "algo": "PPOLag",
+    "env_id": "ConstrainedCliffWorld"
+}

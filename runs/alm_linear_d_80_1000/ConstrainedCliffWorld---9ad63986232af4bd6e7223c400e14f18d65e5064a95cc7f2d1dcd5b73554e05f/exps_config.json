@@ -1,0 +1,17 @@
+
+{
+    "seed": 0,
+    "features_tiling_size": 5,
+    "features_num_tilings": 6,
+    "features_iht_size": 80,
+    "features_one_hot": false,
+    "zeta": 0.1,
+    "eta": 1.0,
+    "init_tau": 10,
+    "init_lambda": 0.0,
+    "iterations_surrogate": 100,
+    "iterations_projected_pqa": 100,
+    "iterations_alm": 10,
+    "algo": "ALM-PPQA",
+    "env_id": "ConstrainedCliffWorld"
+}

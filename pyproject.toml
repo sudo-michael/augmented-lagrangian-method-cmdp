@@ -1,0 +1,13 @@
+[project]
+name = "alm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flax>=0.10.7",
+    "jax[cpu]>=0.6.2",
+    "matplotlib>=3.10.8",
+    "ruff>=0.17.4",
+    "tqdm>=4.67.3",
+]

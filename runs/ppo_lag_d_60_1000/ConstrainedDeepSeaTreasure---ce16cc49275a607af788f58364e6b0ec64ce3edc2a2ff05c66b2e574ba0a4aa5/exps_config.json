@@ -1,0 +1,16 @@
+
+{
+    "seed": 0,
+    "features_tiling_size": 3,
+    "features_num_tilings": 4,
+    "features_iht_size": 60,
+    "features_one_hot": false,
+    "clip": 0.1,
+    "eta_dual": 0.1,
+    "eta_primal": 0.1,
+    "init_lambda": 0.0,
+    "iterations_inner": 250,
+    "iterations_outer": 1000,
+    "algo": "PPOLag",
+    "env_id": "ConstrainedDeepSeaTreasure"
+}

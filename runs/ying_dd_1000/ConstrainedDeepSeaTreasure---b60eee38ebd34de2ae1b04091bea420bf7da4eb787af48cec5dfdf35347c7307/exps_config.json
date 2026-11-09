@@ -1,0 +1,12 @@
+
+{
+    "seed": 0,
+    "alpha": 0.1,
+    "tau": 0.001,
+    "init_lambda": 0.0,
+    "iterations_inner": 10,
+    "iterations_outer": 100,
+    "functional_representation": "direct",
+    "algo": "Ying-NPG-PD",
+    "env_id": "ConstrainedDeepSeaTreasure"
+}

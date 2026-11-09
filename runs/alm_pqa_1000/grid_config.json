@@ -1,0 +1,45 @@
+{
+    "env_id": [
+        "ConstrainedCliffWorld",
+        "ConstrainedDeepSeaTreasure"
+    ],
+    "algo": {
+        "ALM-PQA": {
+            "iterations_outer": [
+                10
+            ],
+            "iterations_inner": [
+                100
+            ],
+            "functional_representation": [
+                "direct"
+            ],
+            "algo_inner": [
+                "pqa"
+            ],
+            "init_tau": [
+                10.0
+            ],
+            "init_lambda": [
+                0.0
+            ],
+            "max_tau": [
+                100
+            ],
+            "beta": [
+                1.0
+            ],
+            "eta": [
+                0.1,
+                1.0,
+                10
+            ],
+            "tau_stratergy": [
+                null
+            ]
+        }
+    },
+    "seed": [
+        0
+    ]
+}

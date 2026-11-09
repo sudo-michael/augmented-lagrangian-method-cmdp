@@ -1,0 +1,10 @@
+
+{
+    "seed": 0,
+    "eta_dual": 0.01,
+    "eta_primal": 0.001,
+    "init_lambda": 0.0,
+    "iterations_outer": 1000,
+    "algo": "ReLOAD",
+    "env_id": "ConstrainedDeepSeaTreasure"
+}

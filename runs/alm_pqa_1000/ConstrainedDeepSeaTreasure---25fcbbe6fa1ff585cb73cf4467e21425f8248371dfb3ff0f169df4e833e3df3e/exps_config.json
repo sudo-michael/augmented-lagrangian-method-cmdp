@@ -1,0 +1,16 @@
+
+{
+    "seed": 0,
+    "tau_stratergy": null,
+    "eta": 1.0,
+    "beta": 1.0,
+    "max_tau": 100,
+    "init_lambda": 0.0,
+    "init_tau": 10.0,
+    "algo_inner": "pqa",
+    "functional_representation": "direct",
+    "iterations_inner": 100,
+    "iterations_outer": 10,
+    "algo": "ALM-PQA",
+    "env_id": "ConstrainedDeepSeaTreasure"
+}

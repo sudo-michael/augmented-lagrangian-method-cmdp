@@ -1,0 +1,14 @@
+
+{
+    "seed": 0,
+    "features_tiling_size": 5,
+    "features_num_tilings": 6,
+    "features_iht_size": 80,
+    "features_one_hot": false,
+    "eta_dual": 0.1,
+    "eta_primal": 0.001,
+    "init_lambda": 0.0,
+    "iterations_outer": 1000,
+    "algo": "ReLOAD",
+    "env_id": "ConstrainedDeepSeaTreasure"
+}

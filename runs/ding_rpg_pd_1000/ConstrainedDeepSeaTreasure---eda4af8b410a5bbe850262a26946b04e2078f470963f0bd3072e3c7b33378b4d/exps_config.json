@@ -1,0 +1,21 @@
+
+{
+    "seed": 0,
+    "eta_dual": 10,
+    "eta_primal": 1,
+    "tau": 0.01,
+    "init_lambda": 0.0,
+    "iterations_outer": 1000,
+    "algo": "RPG-PD",
+    "env_id": "ConstrainedDeepSeaTreasure"
+}
+{
+    "seed": 0,
+    "eta_dual": 10,
+    "eta_primal": 1,
+    "tau": 0.01,
+    "init_lambda": 0.0,
+    "iterations_outer": 1000,
+    "algo": "RPG-PD",
+    "env_id": "ConstrainedDeepSeaTreasure"
+}

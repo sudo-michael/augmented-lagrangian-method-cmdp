@@ -1,0 +1,31 @@
+{
+    "env_id": [
+        "ConstrainedCliffWorld",
+        "ConstrainedDeepSeaTreasure"
+    ],
+    "algo": {
+        "ReLOAD": {
+            "iterations_outer": [
+                1000
+            ],
+            "init_lambda": [
+                0.0
+            ],
+            "eta_primal": [
+                0.001,
+                0.01,
+                0.1,
+                1
+            ],
+            "eta_dual": [
+                0.001,
+                0.01,
+                0.1,
+                1
+            ]
+        }
+    },
+    "seed": [
+        0
+    ]
+}

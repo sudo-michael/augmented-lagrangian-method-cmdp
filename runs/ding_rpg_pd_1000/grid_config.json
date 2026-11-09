@@ -1,0 +1,33 @@
+{
+    "env_id": [
+        "ConstrainedCliffWorld",
+        "ConstrainedDeepSeaTreasure"
+    ],
+    "algo": {
+        "RPG-PD": {
+            "iterations_outer": [
+                1000
+            ],
+            "init_lambda": [
+                0.0
+            ],
+            "eta_primal": [
+                0.01,
+                0.1,
+                1,
+                10,
+                100
+            ],
+            "eta_dual": [
+                0.01,
+                0.1,
+                1,
+                10,
+                100
+            ]
+        }
+    },
+    "seed": [
+        0
+    ]
+}

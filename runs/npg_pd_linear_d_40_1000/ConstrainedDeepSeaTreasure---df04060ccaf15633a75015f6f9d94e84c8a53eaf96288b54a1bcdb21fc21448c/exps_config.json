@@ -1,0 +1,15 @@
+
+{
+    "seed": 0,
+    "features_tiling_size": 1,
+    "features_num_tilings": 4,
+    "features_iht_size": 40,
+    "features_one_hot": false,
+    "eta_dual": 0.1,
+    "eta_primal": 0.0001,
+    "tau": 0.1,
+    "init_lambda": 0.0,
+    "iterations_outer": 1000,
+    "algo": "NPG-RPD",
+    "env_id": "ConstrainedDeepSeaTreasure"
+}
